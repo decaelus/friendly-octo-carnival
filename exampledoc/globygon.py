@@ -36,17 +36,17 @@ class Catalog:
         return RA, Dec
 
     def calculate_center_of_mass(self):
-    """calculate_center_of_mass
+        """calculate_center_of_mass
 
-    Calculate the center-of-mass for points on a two dimensional sphere with 
-    positions given by right ascension and declination
+        Calculate the center-of-mass for points on a two dimensional sphere with 
+        positions given by right ascension and declination
 
-    Args:
-        None
+        Args:
+            None
 
-    Returns:
-        list: right ascension and declination of center-of-mass
-    """
+        Returns:
+            list: right ascension and declination of center-of-mass
+        """
 
         x, y, z = self._convert_RADec_to_Cartesian()
 
