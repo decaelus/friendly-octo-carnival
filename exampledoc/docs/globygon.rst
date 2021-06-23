@@ -1,6 +1,6 @@
 .. _globygon:
 
-Globygon
+Correlate
 =========
 
 .. automodule:: globygon
